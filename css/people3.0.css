@@ -6,11 +6,12 @@
     --black:#000;
     --white:#fff;
     --imageoverly:#0053ba94;
-    --font_heading:'Oswald', sans-serif;
+    --font_heading:Georgia, serif;
   }
 html, body {
     max-width: 100%;
     overflow-x: hidden;
+    font-family: Georgia, serif;
  }
  .personal_website{
      color:white;
@@ -57,6 +58,8 @@ html, body {
     margin: 1rem;
 }
 .card-image{
+    width: 200px;
+    height: 200px;
     box-shadow: 0 0 10px var(--white) ,0 0 50px var(--skyblue);
 }
 .table{
